@@ -22,7 +22,7 @@ function StudentLoveSection() {
             </h2>
 
             <p className="mt-4 text-base leading-relaxed text-[var(--color-muted)] md:text-lg">
-              Hackathon Copilot streamlines team recruiting, API key config, and presentation templates so you can direct 100% of your focus on building premium code.
+              Talengrid streamlines team recruiting, API key config, and presentation templates so you can direct 100% of your focus on building premium code.
             </p>
           </div>
 

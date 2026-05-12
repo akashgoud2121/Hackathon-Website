@@ -49,7 +49,7 @@ function AIToolsSection() {
           </h2>
 
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-[var(--color-muted)] md:text-lg">
-            Hackathon Copilot empowers builders to connect their personal Gemini API key. Bring your own key to activate real-time AI code generation, system architecture design, and automated project auditing without usage limits or cost markups.
+            Talengrid empowers builders to connect their personal Gemini API key. Bring your own key to activate real-time AI code generation, system architecture design, and automated project auditing without usage limits or cost markups.
           </p>
 
           {/* Setup steps card */}

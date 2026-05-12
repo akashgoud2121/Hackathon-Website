@@ -63,18 +63,18 @@ function Navbar() {
         <Link 
           to="/" 
           className="flex items-center select-none"
-          title="Career Copilot Home"
+          title="Talengrid Home"
         >
           <img
             src={Logo}
-            alt="Career Copilot"
+            alt="Talengrid"
             className="h-10 w-10 object-contain md:h-14 md:w-14"
           />
           <span 
             className="-ml-1 text-[1.35rem] font-bold tracking-[-0.03em] text-[var(--color-primary)] leading-none md:text-[1.75rem]"
-            aria-label="Career Copilot"
+            aria-label="Talengrid"
           >
-            <span className="sr-only">C</span>areer Copilot
+            <span className="sr-only">T</span>alengrid
           </span>
         </Link>
         </div>
