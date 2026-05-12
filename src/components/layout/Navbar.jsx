@@ -65,16 +65,11 @@ function Navbar() {
           className="flex items-center select-none"
           title="Talengrid Home"
         >
-          <img
-            src={Logo}
-            alt="Talengrid"
-            className="h-10 w-10 object-contain md:h-14 md:w-14"
-          />
           <span 
-            className="-ml-1 text-[1.35rem] font-bold tracking-[-0.03em] text-[var(--color-primary)] leading-none md:text-[1.75rem]"
+            className="text-[1.35rem] font-bold tracking-[-0.03em] text-[var(--color-primary)] leading-none md:text-[1.75rem]"
             aria-label="Talengrid"
           >
-            <span className="sr-only">T</span>alengrid
+            Talengrid
           </span>
         </Link>
         </div>

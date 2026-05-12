@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import PromptCombatImg from "../../assets/Prompt_Combat.png";
 import FullstackFusionImg from "../../assets/Fullstack_Fusion.png";
 import MechanicMeleeImg from "../../assets/Mechanic_Melee.png";
+import KineticKombatImg from "../../assets/Kinetic_Kombat.png";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 25 },
@@ -38,6 +39,11 @@ function FutureAddonsSection() {
       name: "Mechanic Melee",
       image: MechanicMeleeImg,
       glowColor: "hover:shadow-[0_22px_45px_rgba(244,63,94,0.12)]"
+    },
+    {
+      name: "Kinetic Kombat",
+      image: KineticKombatImg,
+      glowColor: "hover:shadow-[0_22px_45px_rgba(168,85,247,0.12)]"
     }
   ];
 
@@ -65,7 +71,7 @@ function FutureAddonsSection() {
 
         {/* Visual Folded-Paper Cards Grid (With Zero Cropping) */}
         <motion.div 
-          className="mt-14 grid gap-8 md:grid-cols-3"
+          className="mt-14 grid gap-8 md:grid-cols-2 lg:grid-cols-4"
           variants={staggerContainer}
           initial="initial"
           whileInView="whileInView"
